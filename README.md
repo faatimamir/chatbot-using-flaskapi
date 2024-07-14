@@ -39,6 +39,8 @@ To utilize Gemini AI, configure your environment with the necessary API key and 
 ## Usage
 
 - Run the script in a web browser.
+  ![chatbot](https://github.com/user-attachments/assets/628154ae-7542-4eed-97fd-6edb70339ae9)
+
 - Type your prompt in the input field to use `gemini-pro` model. this model support multi-turn conversations (chat)
 - Upload an image with write a prompt to use `gemini-pro-vision` model this model not support multi-turn conversations (chat)
 - Click the "Send" button to receive a response from the AI model.
