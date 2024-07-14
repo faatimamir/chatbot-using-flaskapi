@@ -1,3 +1,4 @@
+
 <h1 align="center">Gemini AI Web Chat 🌌</h1>
 
 <p align="center">
@@ -37,23 +38,33 @@ To utilize Gemini AI, configure your environment with the necessary API key and 
    Replace `your_api_key` Replace with your gemini-api actual API key in this line `const API_KEY = 'your_api_key';`
 
 ## Usage
-install the requiremnts using requirements.txt
-pip install -r requirements.txt
-and then 
+
+1. Install the requirements using `requirements.txt`:
+   ```sh
+   pip install -r requirements.txt
+Start the chatbot script:
+
+```sh
 python chatbot.py
-- Run the script in a web browser.
- ![chatbot](https://github.com/user-attachments/assets/c9cbe081-32a3-4e58-a0b5-bb84be716e2f)
+![chatbot](https://github.com/user-attachments/assets/c9cbe081-32a3-4e58-a0b5-bb84be716e2f)
 
 
-- Type your prompt in the input field to use `gemini-pro` model. this model support multi-turn conversations (chat)
-- Upload an image with write a prompt to use `gemini-pro-vision` model this model not support multi-turn conversations (chat)
-- Click the "Send" button to receive a response from the AI model.
-- The chat interface supports displaying messages as well as images returned from the AI model.
+Type your prompt in the input field to use gemini-pro model. This model supports multi-turn conversations (chat).
 
-## Rate Limits
+Upload an image with a prompt to use gemini-pro-vision model. This model does not support multi-turn conversations (chat).
 
-- **Input Token Limit**: Maximum of 12,288 tokens per request, where each token is approximately equivalent to 4 characters.
-- **Output Token Limit**: The model can generate up to 4,096 tokens in a single response.
-- **Rate Limit**: The rate limit for Gemini Pro models is 60 requests per minute (RPM).
+Click the "Send" button to receive a response from the AI model.
+
+The chat interface supports displaying messages as well as images returned from the AI model.
+
+Rate Limits
+Input Token Limit: Maximum of 12,288 tokens per request, where each token is approximately equivalent to 4 characters.
+Output Token Limit: The model can generate up to 4,096 tokens in a single response.
+Rate Limit: The rate limit for Gemini Pro models is 60 requests per minute (RPM).
+
+
+
+
+
 
 
