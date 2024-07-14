@@ -44,8 +44,11 @@ To utilize Gemini AI, configure your environment with the necessary API key and 
    pip install -r requirements.txt
 Start the chatbot script:
 
-  ```sh
-  python chatbot.py
+   ```sh
+   python chatbot.py
+
+
+
 
 
 ![chatbot](https://github.com/user-attachments/assets/c9cbe081-32a3-4e58-a0b5-bb84be716e2f)
