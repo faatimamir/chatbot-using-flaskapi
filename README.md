@@ -37,9 +37,13 @@ To utilize Gemini AI, configure your environment with the necessary API key and 
    Replace `your_api_key` Replace with your gemini-api actual API key in this line `const API_KEY = 'your_api_key';`
 
 ## Usage
-
+install the requiremnts using requirements.txt
+pip install -r requirements.txt
+and then 
+python chatbot.py
 - Run the script in a web browser.
-  ![chatbot](https://github.com/user-attachments/assets/628154ae-7542-4eed-97fd-6edb70339ae9)
+ ![chatbot](https://github.com/user-attachments/assets/c9cbe081-32a3-4e58-a0b5-bb84be716e2f)
+
 
 - Type your prompt in the input field to use `gemini-pro` model. this model support multi-turn conversations (chat)
 - Upload an image with write a prompt to use `gemini-pro-vision` model this model not support multi-turn conversations (chat)
@@ -52,12 +56,4 @@ To utilize Gemini AI, configure your environment with the necessary API key and 
 - **Output Token Limit**: The model can generate up to 4,096 tokens in a single response.
 - **Rate Limit**: The rate limit for Gemini Pro models is 60 requests per minute (RPM).
 
-## Author
 
-- Name: Bisnu Ray
-- Telegram: [@SmartBisnuBio](https://t.me/SmartBisnuBio)
-
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit pull requests or create issues for bugs and feature requests.
